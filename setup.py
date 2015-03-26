@@ -9,7 +9,7 @@ setup(
     url='https://github.com/BenjiLee/locustauto',
     license='Apache2',
     description='Automatically Test with Locust.io',
-    #long_description=open('README.rst').read(),
+    long_description=open('README.rst').read(),
     install_requires=[
         'pyyaml==3.11',
         'locustio==0.7.2',
