@@ -1,9 +1,4 @@
-# pylint: disable=line-too-long
-"""
-
-
-
-"""
+#!/usr/bin/env python
 import argparse
 import collections
 import os
