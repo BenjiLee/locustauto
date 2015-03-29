@@ -4,9 +4,9 @@ What is it?
 ------------
 Locust.io is a load testing framework written in python. Usually to run locust you run a locustfile with your tests, and then go to a web gui to enter your parameters. Your results are then displayed on the page and you have the option to save the test results. Locust does not give you load over time. By using the commandline interface of locust we want to 
 
-``1.`` Find out the maximum number of users before reaching max load
+1. Find out the maximum number of users before reaching max load
 
-``2.`` Run a load test for each increment of users. I.E. If the max number of users
+2. Run a load test for each increment of users. I.E. If the max number of users
 is 500 and we want to use 5 steps, a test for 100, 200, 300, 400 ,500
 locust users would be run.
 
