@@ -14,4 +14,5 @@ setup(
         'pyyaml==3.11',
         'locustio==0.7.2',
     ],
+    scripts=['bin/locustauto']
 )
