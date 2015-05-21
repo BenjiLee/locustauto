@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='locustauto',
-    version='0.1.0',
+    version='0.2.1',
     author='Christopher Lee',
     author_email='christopherlee2012@gmail.com',
     py_modules=['locust_auto_test',],
@@ -14,5 +14,7 @@ setup(
         'pyyaml==3.11',
         'locustio==0.7.2',
     ],
-    scripts=['bin/locustauto']
+    entry_points = {
+        'console_scripts': ['locustauto=locust_auto_test:main'],
+    }
 )
