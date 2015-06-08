@@ -7,9 +7,9 @@ import subprocess
 import sys
 import time
 import yaml
+from datetime import datetime
 
 IGNORABLE_WARNING = "InsecureRequestWarning"
-
 
 def execute_load_test(command, load_time):
     """
@@ -174,7 +174,7 @@ def process_results(result_list, auto_test_command, config_dict):
     result_keys = ""
     result_values = ""
 
-    file_name = "stats_{}".format(int(time.time()))
+    file_name = datetime.now().strftime('stats_%Y-%m-%d_%H-%M-%S')
 
     with open(file_name, 'w') as f: # pylint: disable=invalid-name
         # add commandline and env variables

@@ -39,8 +39,7 @@ Example stdout
 --------------
 In this example below, the commandline we use is::
 
-    locustauto --load_time 360 --ramp_up_time 300 --max_users 300 --max_user_hatch_rate 300 
-    --steps 12 --directory mobile_api --host="http://url-of-the-load-test-env"
+    locustauto --load_time 360 --ramp_up_time 300 --max_users 300 --max_user_hatch_rate 300 --steps 12 --directory mobile_api --host="https://url-of-the-load-test-env"
 
 This test will be using the file in the `directory` called mobile_api against the endpoint set in `host`
   
