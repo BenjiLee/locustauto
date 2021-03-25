@@ -11,7 +11,7 @@ setup(
     description='Automatically Test with Locust.io',
     long_description=open('README.rst').read(),
     install_requires=[
-        'pyyaml==3.11',
+        'pyyaml==5.4',
         'locustio==0.7.2',
     ],
     entry_points = {
